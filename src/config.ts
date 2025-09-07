@@ -182,7 +182,6 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				LinkPreset.Anime,
 				LinkPreset.Diary,
 				{
 					name: "相册",
@@ -206,16 +205,6 @@ export const navBarConfig: NavBarConfig = {
 					name: "项目展示",
 					url: "/projects/",
 					icon: "material-symbols:work",
-				},
-				{
-					name: "技能展示",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "时间线",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
 				},
 			],
 		},
