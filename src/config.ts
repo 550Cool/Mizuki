@@ -22,8 +22,8 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "Blog",
+	subtitle: "for 2days",
 
 	lang: SITE_LANG,
 
@@ -82,7 +82,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "Welcom to my blog!", // 主页横幅主标题
 
 			subtitle: [
 				"A Showcase Demo Site",
